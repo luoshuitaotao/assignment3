@@ -136,3 +136,4 @@ def getStock(request, pk):
     elif request.method == 'DELETE':
         stock.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
